@@ -1,0 +1,30 @@
+@-moz-document url-prefix("https://tv.nrk.no") {
+.header-full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    height: 100px;
+    opacity: 0;
+    border: none;
+}
+.box.tight,
+#main {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+}
+.container {
+    width: 100%;
+}
+#playerelement {
+    width: 100%;
+}
+.header-full:hover {
+    opacity: .8;
+}
+.top-header {
+    display: none;
+}
+}
